@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./base.css"></style>
+    <link rel="stylesheet" href="./gallery.css"></style>
+    <script src="./gallery.js"></script>
+</head>
+<body>
+    <section>
+        <div class="photo-grid">
+            <div style="background-image:url(images/david_kovalenko_1.jpg)" class="card card-tall" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/hennie_stander_1.jpg)" class="card" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/illiya_vjestica_1.jpg)" class="card card-tall" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/kinga_cichewicz_1.jpg)" class="card card-tall" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/luigi_manga_1.jpg)" class="card" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/omid_armin_1.jpg)" class="card" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/david_kovalenko_2.jpg)" class="card card-tall" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/david_kovalenko_3.jpg)" class="card card-tall" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/david_kovalenko_4.jpg)" class="card" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+            <div style="background-image:url(images/pawel_czerwinski_1.jpg)" class="card" onclick="displayModal(this)">
+                <img src="https://img.icons8.com/material/FFFFFF/enlarge">
+            </div>
+        </div>
+    </section>
+
+    <div class="gallery-modal hide" onclick="closeModal()">
+        <img class="modal-image" src="">
+    </div>
+
+    <section>
+        <div class="credits">
+            <a href="https://github.com/AnthonyRO/web-gallery" title="icons8"><div class="credit">See the readme for full attribution.</div></a>
+        </div>
+    </section>
+</body>
+</html>
