@@ -1,6 +1,6 @@
 # HTML/CSS/Javascript Gallery
 
-[View the gallery here](https://anthonyro.github.io/web-gallery/)
+[View the gallery here](https://antobr.github.io/web-gallery/)
 
 ## Credits
 
